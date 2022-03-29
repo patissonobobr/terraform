@@ -1,5 +1,4 @@
 #!/bin/bash
 
-sudo yum install -y epel-release
-sudo yum update
-sudo yum install -y nginx
+sudo amazon-linux-extras install -y nginx1.12
+sudo systemctl start nginx
